@@ -29,7 +29,7 @@
         <!--BOOK LIST-->
         <scene sceneID="07R-qR-HKH">
             <objects>
-                <viewController id="AAR-RT-o1Z" sceneMemberID="viewController">
+                <viewController id="AAR-RT-o1Z" customClass="BookListViewController" customModule="BookInventory" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ot7-BE-dMW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -65,7 +65,7 @@
         <!--ADD A BOOK-->
         <scene sceneID="MJ7-5w-jAS">
             <objects>
-                <viewController id="gED-RH-Mkj" sceneMemberID="viewController">
+                <viewController id="gED-RH-Mkj" customClass="AddABookViewController" customModule="BookInventory" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SRM-Ws-vcr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
