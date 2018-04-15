@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		900A4B5220822D22008B352F /* AddABookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900A4B5120822D22008B352F /* AddABookViewController.swift */; };
 		900A4B5420822D37008B352F /* BookListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900A4B5320822D37008B352F /* BookListViewController.swift */; };
+		90B0108E208358A100471B37 /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0108D208358A100471B37 /* Region.swift */; };
+		90B01090208358F200471B37 /* RegionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0108F208358F200471B37 /* RegionTest.swift */; };
 		90D2D4322081D1B100C8BF0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D2D4312081D1B100C8BF0E /* AppDelegate.swift */; };
 		90D2D4342081D1B100C8BF0E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D2D4332081D1B100C8BF0E /* HomeViewController.swift */; };
 		90D2D4372081D1B100C8BF0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D2D4352081D1B100C8BF0E /* Main.storyboard */; };
@@ -31,6 +33,8 @@
 /* Begin PBXFileReference section */
 		900A4B5120822D22008B352F /* AddABookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddABookViewController.swift; sourceTree = "<group>"; };
 		900A4B5320822D37008B352F /* BookListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListViewController.swift; sourceTree = "<group>"; };
+		90B0108D208358A100471B37 /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
+		90B0108F208358F200471B37 /* RegionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionTest.swift; sourceTree = "<group>"; };
 		90D2D42E2081D1B000C8BF0E /* BookInventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookInventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D2D4312081D1B100C8BF0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90D2D4332081D1B100C8BF0E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +79,7 @@
 		900A4B4E20822CD3008B352F /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				90B0108C2083588E00471B37 /* DataModels */,
 				90D2D4332081D1B100C8BF0E /* HomeViewController.swift */,
 			);
 			path = Home;
@@ -94,6 +99,14 @@
 				900A4B5120822D22008B352F /* AddABookViewController.swift */,
 			);
 			path = AddABook;
+			sourceTree = "<group>";
+		};
+		90B0108C2083588E00471B37 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				90B0108D208358A100471B37 /* Region.swift */,
+			);
+			path = DataModels;
 			sourceTree = "<group>";
 		};
 		90D2D4252081D1B000C8BF0E = {
@@ -133,6 +146,7 @@
 			children = (
 				90D2D4492081D1B200C8BF0E /* BookInventoryTests.swift */,
 				90D2D44B2081D1B200C8BF0E /* Info.plist */,
+				90B0108F208358F200471B37 /* RegionTest.swift */,
 			);
 			path = BookInventoryTests;
 			sourceTree = "<group>";
@@ -241,6 +255,7 @@
 				90D2D43A2081D1B100C8BF0E /* BookInventory.xcdatamodeld in Sources */,
 				90D2D4342081D1B100C8BF0E /* HomeViewController.swift in Sources */,
 				90D2D4322081D1B100C8BF0E /* AppDelegate.swift in Sources */,
+				90B0108E208358A100471B37 /* Region.swift in Sources */,
 				900A4B5220822D22008B352F /* AddABookViewController.swift in Sources */,
 				900A4B5420822D37008B352F /* BookListViewController.swift in Sources */,
 			);
@@ -251,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90D2D44A2081D1B200C8BF0E /* BookInventoryTests.swift in Sources */,
+				90B01090208358F200471B37 /* RegionTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
