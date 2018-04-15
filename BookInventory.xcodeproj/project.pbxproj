@@ -11,6 +11,9 @@
 		900A4B5420822D37008B352F /* BookListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900A4B5320822D37008B352F /* BookListViewController.swift */; };
 		90B0108E208358A100471B37 /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0108D208358A100471B37 /* Region.swift */; };
 		90B01090208358F200471B37 /* RegionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0108F208358F200471B37 /* RegionTest.swift */; };
+		90B0109220835BB200471B37 /* EnvironmentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0109120835BB200471B37 /* EnvironmentData.swift */; };
+		90B0109420835BE200471B37 /* EnvironmentDataTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0109320835BE200471B37 /* EnvironmentDataTest.swift */; };
+		90B0109620835D2A00471B37 /* CoDataTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0109520835D2A00471B37 /* CoDataTest.swift */; };
 		90D2D4322081D1B100C8BF0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D2D4312081D1B100C8BF0E /* AppDelegate.swift */; };
 		90D2D4342081D1B100C8BF0E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D2D4332081D1B100C8BF0E /* HomeViewController.swift */; };
 		90D2D4372081D1B100C8BF0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D2D4352081D1B100C8BF0E /* Main.storyboard */; };
@@ -35,6 +38,9 @@
 		900A4B5320822D37008B352F /* BookListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListViewController.swift; sourceTree = "<group>"; };
 		90B0108D208358A100471B37 /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
 		90B0108F208358F200471B37 /* RegionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionTest.swift; sourceTree = "<group>"; };
+		90B0109120835BB200471B37 /* EnvironmentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentData.swift; sourceTree = "<group>"; };
+		90B0109320835BE200471B37 /* EnvironmentDataTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentDataTest.swift; sourceTree = "<group>"; };
+		90B0109520835D2A00471B37 /* CoDataTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoDataTest.swift; sourceTree = "<group>"; };
 		90D2D42E2081D1B000C8BF0E /* BookInventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookInventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D2D4312081D1B100C8BF0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90D2D4332081D1B100C8BF0E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				90B0108D208358A100471B37 /* Region.swift */,
+				90B0109120835BB200471B37 /* EnvironmentData.swift */,
 			);
 			path = DataModels;
 			sourceTree = "<group>";
@@ -147,6 +154,8 @@
 				90D2D4492081D1B200C8BF0E /* BookInventoryTests.swift */,
 				90D2D44B2081D1B200C8BF0E /* Info.plist */,
 				90B0108F208358F200471B37 /* RegionTest.swift */,
+				90B0109320835BE200471B37 /* EnvironmentDataTest.swift */,
+				90B0109520835D2A00471B37 /* CoDataTest.swift */,
 			);
 			path = BookInventoryTests;
 			sourceTree = "<group>";
@@ -253,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90D2D43A2081D1B100C8BF0E /* BookInventory.xcdatamodeld in Sources */,
+				90B0109220835BB200471B37 /* EnvironmentData.swift in Sources */,
 				90D2D4342081D1B100C8BF0E /* HomeViewController.swift in Sources */,
 				90D2D4322081D1B100C8BF0E /* AppDelegate.swift in Sources */,
 				90B0108E208358A100471B37 /* Region.swift in Sources */,
@@ -266,7 +276,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				90D2D44A2081D1B200C8BF0E /* BookInventoryTests.swift in Sources */,
+				90B0109420835BE200471B37 /* EnvironmentDataTest.swift in Sources */,
 				90B01090208358F200471B37 /* RegionTest.swift in Sources */,
+				90B0109620835D2A00471B37 /* CoDataTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

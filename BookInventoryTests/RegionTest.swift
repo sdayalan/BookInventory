@@ -12,7 +12,7 @@ import XCTest
 class RegionTest: XCTestCase {
     
     func testValidRegion() {
-        let jsonData = """
+        let data = """
                         {
                             "name": "west",
                             "label_location": {
@@ -22,7 +22,7 @@ class RegionTest: XCTestCase {
                         }
                     """.data(using: .utf8)!
         do {
-            let region = try JSONDecoder().decode(Region.self, from: jsonData)
+            let region = try JSONDecoder().decode(Region.self, from: data)
             let name = region.name
             let longitude = region.location.longitude
             let latitude = region.location.latitude
@@ -35,7 +35,7 @@ class RegionTest: XCTestCase {
     }
     
     func testInvalidRegion() {
-        let jsonData = """
+        let data = """
                         {
                             "name": 1,
                             "label_location": {
@@ -44,7 +44,7 @@ class RegionTest: XCTestCase {
                             }
                         }
                     """.data(using: .utf8)!
-        XCTAssertThrowsError(try JSONDecoder().decode(Region.self, from: jsonData))
+        XCTAssertThrowsError(try JSONDecoder().decode(Region.self, from: data))
     }
     
 }
