@@ -16,6 +16,8 @@
 		90B0109620835D2A00471B37 /* CoDataTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0109520835D2A00471B37 /* CoDataTest.swift */; };
 		90B0109820837DFA00471B37 /* EnvironmentReadings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0109720837DFA00471B37 /* EnvironmentReadings.swift */; };
 		90B0109A20837ECC00471B37 /* EnvironmentReadingsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0109920837ECC00471B37 /* EnvironmentReadingsTest.swift */; };
+		90B0109C208380B700471B37 /* EnvironmentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0109B208380B700471B37 /* EnvironmentItem.swift */; };
+		90B0109E208380F200471B37 /* EnvironmentItemTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0109D208380F200471B37 /* EnvironmentItemTest.swift */; };
 		90D2D4322081D1B100C8BF0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D2D4312081D1B100C8BF0E /* AppDelegate.swift */; };
 		90D2D4342081D1B100C8BF0E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D2D4332081D1B100C8BF0E /* HomeViewController.swift */; };
 		90D2D4372081D1B100C8BF0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D2D4352081D1B100C8BF0E /* Main.storyboard */; };
@@ -45,6 +47,8 @@
 		90B0109520835D2A00471B37 /* CoDataTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoDataTest.swift; sourceTree = "<group>"; };
 		90B0109720837DFA00471B37 /* EnvironmentReadings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentReadings.swift; sourceTree = "<group>"; };
 		90B0109920837ECC00471B37 /* EnvironmentReadingsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentReadingsTest.swift; sourceTree = "<group>"; };
+		90B0109B208380B700471B37 /* EnvironmentItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentItem.swift; sourceTree = "<group>"; };
+		90B0109D208380F200471B37 /* EnvironmentItemTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentItemTest.swift; sourceTree = "<group>"; };
 		90D2D42E2081D1B000C8BF0E /* BookInventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookInventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D2D4312081D1B100C8BF0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90D2D4332081D1B100C8BF0E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +121,7 @@
 				90B0108D208358A100471B37 /* Region.swift */,
 				90B0109120835BB200471B37 /* EnvironmentData.swift */,
 				90B0109720837DFA00471B37 /* EnvironmentReadings.swift */,
+				90B0109B208380B700471B37 /* EnvironmentItem.swift */,
 			);
 			path = DataModels;
 			sourceTree = "<group>";
@@ -162,6 +167,7 @@
 				90B0109320835BE200471B37 /* EnvironmentDataTest.swift */,
 				90B0109520835D2A00471B37 /* CoDataTest.swift */,
 				90B0109920837ECC00471B37 /* EnvironmentReadingsTest.swift */,
+				90B0109D208380F200471B37 /* EnvironmentItemTest.swift */,
 			);
 			path = BookInventoryTests;
 			sourceTree = "<group>";
@@ -274,6 +280,7 @@
 				90B0108E208358A100471B37 /* Region.swift in Sources */,
 				900A4B5220822D22008B352F /* AddABookViewController.swift in Sources */,
 				90B0109820837DFA00471B37 /* EnvironmentReadings.swift in Sources */,
+				90B0109C208380B700471B37 /* EnvironmentItem.swift in Sources */,
 				900A4B5420822D37008B352F /* BookListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90B0109E208380F200471B37 /* EnvironmentItemTest.swift in Sources */,
 				90B0109A20837ECC00471B37 /* EnvironmentReadingsTest.swift in Sources */,
 				90D2D44A2081D1B200C8BF0E /* BookInventoryTests.swift in Sources */,
 				90B0109420835BE200471B37 /* EnvironmentDataTest.swift in Sources */,
