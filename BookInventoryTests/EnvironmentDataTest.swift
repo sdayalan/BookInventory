@@ -40,5 +40,4 @@ class EnvironmentDataTest: XCTestCase {
                     """.data(using: .utf8)!
         XCTAssertThrowsError(try JSONDecoder().decode(EnvironmentData.self, from: data))
     }
-    
 }
